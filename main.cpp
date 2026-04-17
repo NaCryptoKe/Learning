@@ -1,11 +1,7 @@
 #include <iostream>
-#include <memory>
-#include <vector>
-
-using namespace std;
 
 int main() {
-    cout << __cplusplus << endl;
+    std::cout << "Hello, World!" << std::endl;
 
     return 0;
 }
