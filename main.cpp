@@ -1,7 +1,19 @@
-#include <iostream>
+#include "smart_pointer.h"
+
+class smart_pointer {
+private:
+    int* y;
+
+public:
+    smart_pointer(int x) {
+       y = allocate(x);
+    }
+    
+    ~smart_pointer() {
+        release(y);
+    }
+};
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-
     return 0;
 }
