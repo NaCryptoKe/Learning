@@ -15,6 +15,5 @@ public:
 };
 
 int main() {
-    // Nothing
-    return 0;
+   return 0;
 }
