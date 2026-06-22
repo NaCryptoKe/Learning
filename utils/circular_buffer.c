@@ -38,7 +38,7 @@ void *consumer(void *arg) {
             printf("%d\n", *(int *)val);
             free(val);
             count++;
-        }
+        } else break;
     }
     return NULL;
 }
@@ -51,8 +51,8 @@ int main(void) {
     pthread_t t1, t2;
 
     pthread_create(&t1, NULL, producer, &R);
-    pthread_create(&t2, NULL, consumer, &R);
     pthread_join(t1, NULL);
+    pthread_create(&t2, NULL, consumer, &R);
     pthread_join(t2, NULL);
 
     free(R.buffer);
