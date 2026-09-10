@@ -1,0 +1,7 @@
+/home/nahom/Projects/Learning/experiment/fractal_explorer/build/CMakeFiles/fractal_explorer.dir
+/home/nahom/Projects/Learning/experiment/fractal_explorer/build/CMakeFiles/edit_cache.dir
+/home/nahom/Projects/Learning/experiment/fractal_explorer/build/CMakeFiles/rebuild_cache.dir
+/home/nahom/Projects/Learning/experiment/fractal_explorer/build/CMakeFiles/list_install_components.dir
+/home/nahom/Projects/Learning/experiment/fractal_explorer/build/CMakeFiles/install.dir
+/home/nahom/Projects/Learning/experiment/fractal_explorer/build/CMakeFiles/install/local.dir
+/home/nahom/Projects/Learning/experiment/fractal_explorer/build/CMakeFiles/install/strip.dir
