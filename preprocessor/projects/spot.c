@@ -1,0 +1,4 @@
+#define UNUSED_MACRO 999
+#define USED_MACRO 7
+
+x = USED_MACRO;
