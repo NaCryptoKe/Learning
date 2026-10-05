@@ -10,6 +10,7 @@ int main(void)
   printf("Memory: i -> %p, j -> %p\n", &i, &j);
   printf("arr[0]: %d\n", *p);
   printf("arr[1]: %d\n", *p+1);
+  printf("Trying out long: %ld\n", i);
 
   // Actual array
   int arr[2] = {3, 4};
